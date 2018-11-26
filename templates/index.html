@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <main class="hero-section">
+    <div class="container">
+      
+      <div class="section-content">
+        <h2> Visualroom is coming soon !</h2>
+        <p> © 2018 Steve Breden All Rights Reserved</p>
+        <h2> Sign up to stay updated. </h2>
+        <a href="{{ url_for('signup') }}" class="btn-primary">Sign up</a>
+        <a href="{{ url_for('about') }}" class="btn-secondary">Learn more</a> 
+      </div>
+
+      <div class="section-device">
+        <img src="static/img/device.png">
+      </div>
+      
+      <div class="clearfix"></div>
+
+    </div>
+  </main>
+{% endblock %}
